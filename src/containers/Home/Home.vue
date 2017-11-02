@@ -36,7 +36,7 @@
   import Ad from 'components/Ad/Ad'
   import Like from 'components/Like/Like'
   import axios from 'axios'
-  import {ERR_OK, isGithub} from 'common/config.js'
+  import {ERR_OK} from 'common/config.js'
   import {mapGetters} from 'vuex'
 
   export default {
@@ -72,13 +72,7 @@
     methods: {
       // 超值特惠
       _initCZTH() {
-        let url
-        if (isGithub()) {
-          url = 'https://joya0411.github.io/vue-dp/mock/home/czth.json'
-        } else {
-          url = 'api/czth'
-        }
-        axios.post(url, {
+        axios.post('api/czth', {
           cityName: this.cityName
         }).then(response => {
           if (response.status === ERR_OK) {
