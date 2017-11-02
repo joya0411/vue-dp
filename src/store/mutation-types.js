@@ -1,0 +1,5 @@
+export const SET_CITYNAME = 'SET_CITYNAME'
+
+export const SET_USERINFO = 'SET_USERINFO'
+
+export const SET_STORELIST = 'SET_STORELIST'

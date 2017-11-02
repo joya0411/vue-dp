@@ -1,0 +1,29 @@
+module.exports = [
+  {
+    "dgId": "26835591",
+    "imageUrl": "//p0.meituan.net/dpdeal/51bd4d930852fb9853ee898ca35751d6101391.jpg%40120w_90h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D20%26y%3D20",
+    "markPrice": "267.0",
+    "featureTitle": "仅售1元，价值267元新学期1对1精品套餐，节假日通用！",
+    "shortTitle": "龙文教育",
+    "price": "1.0",
+    "tag": ""
+  },
+  {
+    "dgId": "21226959",
+    "imageUrl": "//p1.meituan.net/dpdeal/f99e6b892be9e8598dbe2b2934f168dc2523134.jpg%40120w_90h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D20%26y%3D20",
+    "markPrice": "360.0",
+    "featureTitle": "仅售1元，价值360元艺哈少儿艺术课程单人2次体验课，免费停车位，免费WiFi！",
+    "shortTitle": "艺哈少儿·艺术课程单人2次体验课",
+    "price": "1.0",
+    "tag": ""
+  },
+  {
+    "dgId": "24225314",
+    "imageUrl": "//p0.meituan.net/dpdeal/c05665a52a358dc99557a67d1ab2f79273593.jpg%40120w_90h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D20%26y%3D20",
+    "markPrice": "5.0",
+    "featureTitle": "仅售1元，价值5元狼人杀/三国杀组局服务，节假日通用！",
+    "shortTitle": "圆桌骑士轰趴桌游馆",
+    "price": "1.0",
+    "tag": ""
+  }
+]
