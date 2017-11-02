@@ -1,6 +1,6 @@
-module.exports = {
-  hasMore: true,
-  data: [
+{
+  "hasMore": true,
+  "data": [
     {
       "shopName": "要得重庆小面",
       "dealgroupid": "24111802",

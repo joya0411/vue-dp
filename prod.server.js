@@ -3,16 +3,16 @@ const express = require('express')
 const app = express()
 const apiRouters = express.Router();
 
-const czth = require('./src/mock/home/czth.js')
-const ttlj = require('./src/mock/home/ttlj.js')
-const cnxh = require('./src/mock/home/cnxh.js')
+const czth = require('./src/mock/home/czth.json')
+const ttlj = require('./src/mock/home/ttlj.json')
+const cnxh = require('./src/mock/home/cnxh.json')
 
-const detailInfo = require('./src/mock/detail/info.js')
-const detailComment = require('./src/mock/detail/comment.js')
+const detailInfo = require('./src/mock/detail/info.json')
+const detailComment = require('./src/mock/detail/comment.json')
 
-const searchList = require('./src/mock/search/list.js')
+const searchList = require('./src/mock/search/list.json')
 
-const orderList = require('./src/mock/user/orderList.js')
+const orderList = require('./src/mock/user/orderList.json')
 
 // 超值特惠
 apiRouters.post('/api/czth', function (req, res) {

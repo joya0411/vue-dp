@@ -70,14 +70,14 @@
       this._initCNXH()
     },
     methods: {
-      getUrl() {
-        let path = ''
-        path = isGithub() ? 'api/czth' : 'api/czth'
-        return path
-      },
       // 超值特惠
       _initCZTH() {
-        let url = this.getUrl()
+        let url
+        if (isGithub()) {
+          url = 'https://joya0411.github.io/vue-dp/mock/home/czth.json'
+        } else {
+          url = 'api/czth'
+        }
         axios.post(url, {
           cityName: this.cityName
         }).then(response => {
